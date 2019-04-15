@@ -1,0 +1,10 @@
+!function () {
+    try{
+        ddcast_plugin();
+    } catch (err){
+        console.log(err.message);
+    }
+}();
+function ddcast_plugin() {
+    window.open('https://api.jiexi.la/?url='+location.href);
+};
